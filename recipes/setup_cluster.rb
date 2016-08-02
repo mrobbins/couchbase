@@ -3,8 +3,7 @@
 # Recipe:: setup_cluster
 #
 
-#cluster_name = node["cluster_name"]
-cluster_name = "west_cluster"
+cluster_name = node["cluster_name"]
 prefix = "ns_1@"
 separator=","
 known_nodes=prefix+self.node["ipaddress"]
